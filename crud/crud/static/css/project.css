@@ -1,0 +1,71 @@
+.hamer {
+    width: 300px;
+    height: 300px;
+    
+    
+}
+.input{
+    padding:20px; border-color:red; border-radius:50px;
+}
+.button{
+    padding:20px;
+}
+.title h3
+.title h4{
+    display: inline;
+}
+.signup-w3ls {
+    width: 50%;
+    margin: 70px 25% 80%;
+    padding: 0;
+    display: table;
+    position: relative;
+}
+.signup-agile1{
+    width:100%;
+    
+}
+
+.signup-w3ls .signup-agile1 .form-control {
+    margin-bottom: 20px;
+}
+
+.register {
+    background-color: lightgreen;
+    width: 52%;
+    height: 55px;
+    border: none;
+    margin-left: 233px;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    -ms-border-radius: 30px;
+    font-family: 'Muli', sans-serif;
+}   
+.register:hover {
+    background-color:#36b051;
+    color:#fff;
+}
+.imgg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.imggg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}

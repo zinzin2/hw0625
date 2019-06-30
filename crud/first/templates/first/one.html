@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %} 
+{% block content %}
+
+<center><img src="{% static 'image/ins2.PNG' %}"  width="400" align="middle"></center>
+<head>
+<style> 
+input[type=submit] {
+  background-color: #3399ff;
+  color: white;
+  padding: 16px 32px;
+  
+}
+</style>
+</head>
+<body>
+<form action="{% url 'two' %}" >
+<p align="middle">NAME<br/><input type="text" name="text" placeholder="Name"/></p>
+<hr color="#3399ff">
+<p align="middle">USERNAME<br/><input type="text" name="text" placeholder="Username"/></p>
+<hr color="#3399ff">
+<p align="middle">E-MAIL ID<br/><input type="text" name="text" placeholder="email"/></p>
+<hr color="#3399ff">
+<p align="middle">PASSWORD<br/><input type="password" name="password" placeholder="Password" required/></p>
+<marquee><b>MINIMUM 6 DIGITS</b></marquee><hr color="#3399ff">
+<p align="middle">VERIFICATION<br><input type="password" name="password" placeholder="Password" required/></p>
+<marquee><b> TYPE YOUR PASSWORD AGAIN</b></marquee>
+<hr color="#3399ff">
+<p align="right"><input type="submit" value="Sign Up" /></p>
+
+</form>
+ 
+<br></br>
+<div class="title">
+    <h3>계정이 없으신가요?</h3>
+    <h4 style="color:#3399ff">가입하기</h4>
+</div>
+<h3>앱을 다운로드하세요.</h3>
+</body>
+{% endblock %} 

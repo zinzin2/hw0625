@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %} 
+{% block content %}
+<a href="{% url 'main' %}">
+<img src="{% static 'image/0.PNG' %}"  width="300" align="left"></a>
+<a href="{% url 'myprofile' %}">
+<div style="position:absolute; width:0px; height:50px; top:45px; left:850px;">
+<img src="{% static 'image/1.PNG' %}"  width="100" ></a>
+<a href="{% url 'myprofile' %}">
+<div style="position:absolute; width:0px; height:50px; top:10px; left:100px;">
+<img src="{% static 'image/2.PNG' %}"  width="100" ></a>
+<a href="{% url 'myprofile' %}">
+<div style="position:absolute; width:0px; height:50px; top:10px; left:100px;">
+<img src="{% static 'image/3.PNG' %}"  width="58"></a>
+
+
+    <div style="position:absolute; width:0px; height:200px; top:80px; left:-1120px;">
+<img src="{% static 'image/logo.jpg' %}"  width="580">
+<div style="position:absolute; width:0px; height:150px; top:120px; left:300px;">
+<input class="favorite styled" type="button" value="프로필 편집" onClick="location.href='http://hwhw-0625-cloned-leejinsun.c9users.io:8080/first/edit/'">
+<h3>zinsunn</h3>
+
+{% endblock %} 
